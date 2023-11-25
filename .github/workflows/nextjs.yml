@@ -29,8 +29,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Install node-gyp
-        run: sudo npm install -g node-gyp
+      - name: Install node-gyp 
+        run: npm install node-gyp@latest
       - name: Checkout
         uses: actions/checkout@v3
       - name: Detect package manager
