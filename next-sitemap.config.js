@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || "https://mirsazzathossain.me",
+  siteUrl: process.env.SITE_URL || "https://ashfakyeafi.github.io/test-portfolio",
   generateRobotsTxt: true,
   exclude: ['/server-sitemap.xml'],
   robotsTxtOptions: {
@@ -11,8 +11,8 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      `${process.env.SITE_URL || "https://mirsazzathossain.me"}/sitemap.xml`,
-      `${process.env.SITE_URL || "https://mirsazzathossain.me"}/server-sitemap.xml`,
+      `${process.env.SITE_URL || "https://ashfakyeafi.github.io/test-portfolio"}/sitemap.xml`,
+      `${process.env.SITE_URL || "https://ashfakyeafi.github.io/test-portfolio"}/server-sitemap.xml`,
     ],
   },
 };
