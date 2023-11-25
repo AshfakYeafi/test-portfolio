@@ -1,37 +1,20 @@
-import bundeAnalyzer from '@next/bundle-analyzer';
-import nextMDX from '@next/mdx';
-import rehypePlugins from 'rehype-plugins';
-import remarkPlugins from 'remark-plugins';
+import { withContentlayer } from 'next-contentlayer'
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  redirects: async () => [
-    {
-      source: '/work',
-      destination: '/work/skills-and-tools',
-      permanent: false,
+export default withContentlayer({
+    images: {
+        domains: ['images.unsplash.com', 'cdn.buymeacoffee.com'],
     },
-    {
-      source: '/docs',
-      destination: '/docs/tailwindcss-accent',
-      permanent: false,
+    reactStrictMode: true,
+    swcMinify: true,
+    experimental: {
+        scrollRestoration: true,
+        mdxRs: false,
     },
-  ],
-  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
-  reactStrictMode: true,
-};
-
-const withBundleAnalyzer = bundeAnalyzer({
-  enabled: process.env.ANALYZE === 'true',
-});
-
-const withMDX = nextMDX({
-  extension: /\.mdx?$/,
-  options: {
-    remarkPlugins,
-    rehypePlugins,
-    providerImportSource: '@mdx-js/react',
-  },
-});
-
-export default withBundleAnalyzer(withMDX(nextConfig));
+    typescript: {
+        // !! WARN !!
+        // Dangerously allow production builds to successfully complete even if
+        // your project has type errors.
+        // !! WARN !!
+        ignoreBuildErrors: true,
+    },
+})

@@ -1,0 +1,69 @@
+---
+title: "Running Jupyter on a Remote Server and Connecting Locally"
+description: "How to run Jupyter on a remote server and connect to it locally, using SSH tunnels."
+language: "bash"
+logo:
+  url: "logos/bash.png"
+  alt: "Bash Logo"
+---
+
+## Create a tmux or screen session on the remote server
+
+```bash
+# tmux
+tmux new -s jupyter
+
+# screen
+screen -S jupyter
+```
+
+## Start Jupyter on the remote server
+
+```bash
+jupyter notebook --no-browser --port=8889
+```
+
+<HighlightText>
+  Note: Copy the token from the output of the above command and save it
+  somewhere.
+</HighlightText>
+
+## Detach from the tmux or screen session
+
+```bash
+# tmux
+Ctrl + b, d
+
+# screen
+Ctrl + a, d
+```
+
+## Create an SSH tunnel from the local machine to the remote server
+
+```bash
+ssh -N -f -L localhost:8888:localhost:8889 user@remote-server
+```
+
+## Open Jupyter in the browser
+
+Open `http://localhost:8888` in the browser and enter the token from earlier.
+
+## Reattach to the tmux or screen session
+
+```bash
+# tmux
+tmux attach -t jupyter
+
+# screen
+screen -r jupyter
+```
+
+## Kill the tmux or screen session
+
+```bash
+# tmux
+tmux kill-session -t jupyter
+
+# screen
+screen -X -S jupyter quit
+```
