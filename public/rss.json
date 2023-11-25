@@ -1,0 +1,50 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "RSS Feed - Mir Sazzat Hossain",
+    "home_page_url": "https://mirsazzathossain.me",
+    "feed_url": "https://mirsazzathossain.me/rss.json",
+    "description": "Mir Sazzat Hossain's personal blog",
+    "icon": "https://mirsazzathossain.me/images/og-image.png",
+    "author": {
+        "name": "Mir Sazzat Hossain",
+        "url": "https://mirsazzathossain.me"
+    },
+    "items": [
+        {
+            "id": "https://mirsazzathossain.me/articles/poisson-distribution",
+            "content_html": "The blog post explores the Poisson distribution, a statistical distribution commonly used in various fields, including astronomy, to model random events. It explains the properties of the distribution, its real-world applications, and provides a step-by-step guide on how to visualize the Poisson distribution using Python. The post also discusses the issue of Poisson noise in astronomical observations and presents a practical example of how to calculate and deal with it using Python.",
+            "url": "https://mirsazzathossain.me/articles/poisson-distribution",
+            "title": "The Poisson Distribution: Your Key to Predicting the Unforeseeable",
+            "summary": "The blog post explores the Poisson distribution, a statistical distribution commonly used in various fields, including astronomy, to model random events. It explains the properties of the distribution, its real-world applications, and provides a step-by-step guide on how to visualize the Poisson distribution using Python. The post also discusses the issue of Poisson noise in astronomical observations and presents a practical example of how to calculate and deal with it using Python.",
+            "date_modified": "2023-02-22T00:00:00.000Z",
+            "author": {
+                "name": "Mir Sazzat Hossain",
+                "url": "https://mirsazzathossain.me"
+            }
+        },
+        {
+            "id": "https://mirsazzathossain.me/articles/dockerizing-jupyter-notebook",
+            "content_html": "Learn how to set up and deploy a Dockerized Jupyter Lab on a private Linux server, providing a secure environment for data science work. This step-by-step guide covers the installation and configuration of Docker, creation of a Jupyter Lab container, and tips for managing conda environments and accessing the Jupyter Lab interface.",
+            "url": "https://mirsazzathossain.me/articles/dockerizing-jupyter-notebook",
+            "title": "Dockerize Your Data Science Workflow: A Step-by-Step Guide to Setting Up Jupyter Lab on Your Private Linux Machine",
+            "summary": "Learn how to set up and deploy a Dockerized Jupyter Lab on a private Linux server, providing a secure environment for data science work. This step-by-step guide covers the installation and configuration of Docker, creation of a Jupyter Lab container, and tips for managing conda environments and accessing the Jupyter Lab interface.",
+            "date_modified": "2023-02-21T00:00:00.000Z",
+            "author": {
+                "name": "Mir Sazzat Hossain",
+                "url": "https://mirsazzathossain.me"
+            }
+        },
+        {
+            "id": "https://mirsazzathossain.me/articles/exploring-gaussian-distribution",
+            "content_html": "This blog post delves into the concept of Gaussian Distribution, a popular topic in mathematics and statistics. The post provides a comprehensive explanation of the distribution, including its properties, applications, and examples. Get to know the secrets behind the famous bell-shaped curve and how it is used in various fields. Whether you are a student, researcher, or data analyst, this post has everything you need to know about Gaussian Distribution.",
+            "url": "https://mirsazzathossain.me/articles/exploring-gaussian-distribution",
+            "title": "Exploring Gaussian Distribution: Understanding the Math Behind the Bell-Shaped Curve",
+            "summary": "This blog post delves into the concept of Gaussian Distribution, a popular topic in mathematics and statistics. The post provides a comprehensive explanation of the distribution, including its properties, applications, and examples. Get to know the secrets behind the famous bell-shaped curve and how it is used in various fields. Whether you are a student, researcher, or data analyst, this post has everything you need to know about Gaussian Distribution.",
+            "date_modified": "2023-02-15T00:00:00.000Z",
+            "author": {
+                "name": "Mir Sazzat Hossain",
+                "url": "https://mirsazzathossain.me"
+            }
+        }
+    ]
+}

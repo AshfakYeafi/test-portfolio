@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mirsazzathossain.me</id>
+    <title>RSS Feed - Mir Sazzat Hossain</title>
+    <updated>2023-11-25T17:00:17.938Z</updated>
+    <generator>Feed for Node.js</generator>
+    <author>
+        <name>Mir Sazzat Hossain</name>
+        <email>mirsazzathossain@gmail.com</email>
+        <uri>https://mirsazzathossain.me</uri>
+    </author>
+    <link rel="alternate" href="https://mirsazzathossain.me"/>
+    <link rel="self" href="https://mirsazzathossain.me/atom.xml"/>
+    <subtitle>Mir Sazzat Hossain's personal blog</subtitle>
+    <logo>https://mirsazzathossain.me/images/og-image.png</logo>
+    <icon>https://mirsazzathossain.me/favicon.ico</icon>
+    <rights>All rights reserved 2023, Ibas</rights>
+    <entry>
+        <title type="html"><![CDATA[The Poisson Distribution: Your Key to Predicting the Unforeseeable]]></title>
+        <id>https://mirsazzathossain.me/articles/poisson-distribution</id>
+        <link href="https://mirsazzathossain.me/articles/poisson-distribution"/>
+        <updated>2023-02-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The blog post explores the Poisson distribution, a statistical distribution commonly used in various fields, including astronomy, to model random events. It explains the properties of the distribution, its real-world applications, and provides a step-by-step guide on how to visualize the Poisson distribution using Python. The post also discusses the issue of Poisson noise in astronomical observations and presents a practical example of how to calculate and deal with it using Python.]]></summary>
+        <content type="html"><![CDATA[The blog post explores the Poisson distribution, a statistical distribution commonly used in various fields, including astronomy, to model random events. It explains the properties of the distribution, its real-world applications, and provides a step-by-step guide on how to visualize the Poisson distribution using Python. The post also discusses the issue of Poisson noise in astronomical observations and presents a practical example of how to calculate and deal with it using Python.]]></content>
+        <author>
+            <name>Mir Sazzat Hossain</name>
+            <email>mirsazzathossain@gmail.com</email>
+            <uri>https://mirsazzathossain.me</uri>
+        </author>
+        <contributor>
+            <name>Mir Sazzat Hossain</name>
+            <email>mirsazzathossain@gmail.com</email>
+            <uri>https://mirsazzathossain.me</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dockerize Your Data Science Workflow: A Step-by-Step Guide to Setting Up Jupyter Lab on Your Private Linux Machine]]></title>
+        <id>https://mirsazzathossain.me/articles/dockerizing-jupyter-notebook</id>
+        <link href="https://mirsazzathossain.me/articles/dockerizing-jupyter-notebook"/>
+        <updated>2023-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to set up and deploy a Dockerized Jupyter Lab on a private Linux server, providing a secure environment for data science work. This step-by-step guide covers the installation and configuration of Docker, creation of a Jupyter Lab container, and tips for managing conda environments and accessing the Jupyter Lab interface.]]></summary>
+        <content type="html"><![CDATA[Learn how to set up and deploy a Dockerized Jupyter Lab on a private Linux server, providing a secure environment for data science work. This step-by-step guide covers the installation and configuration of Docker, creation of a Jupyter Lab container, and tips for managing conda environments and accessing the Jupyter Lab interface.]]></content>
+        <author>
+            <name>Mir Sazzat Hossain</name>
+            <email>mirsazzathossain@gmail.com</email>
+            <uri>https://mirsazzathossain.me</uri>
+        </author>
+        <contributor>
+            <name>Mir Sazzat Hossain</name>
+            <email>mirsazzathossain@gmail.com</email>
+            <uri>https://mirsazzathossain.me</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring Gaussian Distribution: Understanding the Math Behind the Bell-Shaped Curve]]></title>
+        <id>https://mirsazzathossain.me/articles/exploring-gaussian-distribution</id>
+        <link href="https://mirsazzathossain.me/articles/exploring-gaussian-distribution"/>
+        <updated>2023-02-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This blog post delves into the concept of Gaussian Distribution, a popular topic in mathematics and statistics. The post provides a comprehensive explanation of the distribution, including its properties, applications, and examples. Get to know the secrets behind the famous bell-shaped curve and how it is used in various fields. Whether you are a student, researcher, or data analyst, this post has everything you need to know about Gaussian Distribution.]]></summary>
+        <content type="html"><![CDATA[This blog post delves into the concept of Gaussian Distribution, a popular topic in mathematics and statistics. The post provides a comprehensive explanation of the distribution, including its properties, applications, and examples. Get to know the secrets behind the famous bell-shaped curve and how it is used in various fields. Whether you are a student, researcher, or data analyst, this post has everything you need to know about Gaussian Distribution.]]></content>
+        <author>
+            <name>Mir Sazzat Hossain</name>
+            <email>mirsazzathossain@gmail.com</email>
+            <uri>https://mirsazzathossain.me</uri>
+        </author>
+        <contributor>
+            <name>Mir Sazzat Hossain</name>
+            <email>mirsazzathossain@gmail.com</email>
+            <uri>https://mirsazzathossain.me</uri>
+        </contributor>
+    </entry>
+</feed>
